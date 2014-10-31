@@ -1,0 +1,30 @@
+/*  Alexander Rhett Crammer
+    Friday, 21 October, 2014
+    Intro to CSS
+    Happy Halloween!    */
+
+body {
+	font-family: "Arial", "Verdana", sans-serif;
+}
+
+#container {
+	background-color: #efefef ;
+	border: 1px solid #665544 ;
+	padding: 10px ;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #ee3e80 ;
+}
+
+p {
+	color: #665544 ;
+}
+
+p strong {
+	color: green ;
+}
+
+p em {
+	color: violet ;
+}
