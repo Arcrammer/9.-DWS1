@@ -1,0 +1,67 @@
+/*  Alexander Rhett Crammer
+    Friday, 21 October, 2014
+    Intro to CSS
+    Happy Halloween!    */
+
+body, body * {
+	margin: 0px ;
+	padding: 0px ;
+}
+
+h1 {
+	background-color: #CC68B2 ;
+	color: rgb(250,250,250) ;
+	font-family: "Georgia", "Times", serif ;
+	font-size: 2.50em ;
+	padding: 15px ;
+	text-shadow: 2px 2px #666 ;
+}
+
+h2 {
+	background-color: #FF81DE ;
+	color: rgb(253,253,253) ;
+	font-family: "Gill Sans", "Arial", serif ;
+	font-size: 0.90em ;
+	margin: 10px auto 10px auto ;
+	padding: 15px ;
+	text-transform: uppercase ;
+}
+
+h3 {
+	background-color: #ffcff2 ;
+	color: #fff ;
+	font-family: 1.50em ;
+	font-size: 22px ;
+	font-style: oblique ;
+	/* I also wanted to make this a little bold but I was asked to reset the values of all
+		headers to have normal font weights, so I'll go with an oblique style */
+	padding: 25px ;
+	text-shadow: 1px 1px 2px black ;
+}
+
+p {
+	background-color: #7F416F ;
+	color: white ;
+	font-family: "Arial", "Verdana", sans-serif ; /* I would have used a thinner font, but I don't think these guys support them. */
+	line-height: 1.4em ;
+	padding: 25px ;
+}
+
+/* This should already be set as the default, but we'll make sure of it anyway. */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal ;
+}
+
+#intro {
+	font-weight: bold ;
+}
+
+#credit {
+	font-style: italic ;
+	text-align: right ;
+}
+
+a:link {color: silver ;text-decoration: none ;}
+a:visited {color: silver ;text-decoration: none ;}
+a:hover {color: silver ;text-decoration: underline ;}
+a:active {color: silver ;text-decoration: none ;}
