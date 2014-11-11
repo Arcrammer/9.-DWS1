@@ -8,19 +8,26 @@
 
 body {
 	background-color: #403831 ; /* Setting the background colour of the 'body' element */
+	background-image: url("../images/royal-rug.png") ;
+	background-repeat: repeat ;
+	background-position: top center ;
 	color: #F2EFE4 ; /* Setting the text colour of everything within the 'body' element */
-	margin: 0px ; /* Clearing the margin of <body> */
-	padding: 0px ; /* Clearing the padding of <body> */
+	margin: 0 ; /* Clearing the margin of <body> */
+	padding: 0 ; /* Clearing the padding of <body> */
 }
 
 body * {
-	margin: 0px ; /* Clearing the margin of all elements within the <body> element */
-	padding: 0px ; /* Clearing the padding of all elements within the <body> element */
+	margin: 0 ; /* Clearing the margin of all elements within the <body> element */
+	padding: 0 ; /* Clearing the padding of all elements within the <body> element */
 }
 
 .container {
-	margin: auto ; /* Setting the containers' margin to 'auto' will center it */
-	width: 950px ; /* Setting the width of the container */
+		background-image: url("../images/pattern_153.gif") ;
+	background-repeat: no-repeat ;
+	background-position: top center ;
+	background-size: cover ;
+margin: auto ; /* Setting the containers' margin to 'auto' will center it */
+	width: 75% ; /* Setting the width of the container */
 }
 
 h1 {
@@ -28,7 +35,7 @@ h1 {
 	background-color: #BF5E5E ; /* Setting the background colour for level 1 headers */
 	box-shadow: 0px 0px 50px 5px rgba(100,100,100,0.4) ; /* Adding a drop shadow to level 1 headers */
 	font-family: "Helvetica Neue", "Helvetica", "Source Sans Pro", "Arial", sans-serif; /* Determining which font should be used for level 1 headers */
-	font-size: 34px ; /* Setting a pixel value for the size of level 1 header text */
+	font-size: 2em ; /* Setting a pixel value for the size of level 1 header text */
 	font-weight: 200 ; /* ...and how thin or heavy it should be */
 	margin-bottom: 15px ; /* This will push all other elements down well */
 	padding: 25px ; /* This makes the element large enough to fill the container and appear as a bar */
@@ -40,10 +47,11 @@ h1 {
 h3 {
 	background-color: #D95F98 ; /* Setting the background colour for level 3 headers */
 	font-family: "Helvetica Neue", "Helvetica", "Source Sans Pro", "Arial", sans-serif ; /* Determining which font should be used for level 3 headers */
-	font-size: 14px ; /* ...and size */
+	font-size: 0.812em ; /* ...and size */
 	font-style: italic ; /* Declaring that level 3 headers should have italic text */
 	margin-bottom: 15px ; /* Pushing elements below level 3 headers down a little */
 	padding: 15px ; /* Sets a nice large background to be filled with colour behind the text of level 3 headers */
+	text-align: left ; /* Override of center value inherited from .column */
 	text-transform: uppercase ; /* Sets the text to display using upper case characters */
 }
 
@@ -54,12 +62,12 @@ p {
 p, a {
 	line-height: 20px ; /* Sets a high line height between lines of <a>'s and <p>'s */
 	font-family: "Merriweather", "Times", "Times New Roman", serif ; /* Sets the font for <a>'s and <p>'s */
-	font-size: 14px ; /* Sets the font size for <a>'s and <p>'s */
+	font-size: 0.812em ; /* Sets the font size for <a>'s and <p>'s */
 }
 
 li a {
 	font-family: "Helvetica Neue", "Helvetica", "Source Sans Pro", "Arial", sans-serif; /* Determining the font for <li>'s and <a>'s */
-	font-size: 16px ; /* ...and the size */
+	font-size: 0.871em ; /* ...and the size */
 }
 
 a:link {color: #BF506E ;text-decoration: none ;} /* Setting all link default properties */
@@ -77,30 +85,16 @@ ul {
 	padding: 15px 25px ; /* Demonstrating some padding in order to give unordered lists a little space to live */
 	opacity: 0.4 ; /* Setting the default opacity of unordered lists. */
 	
-	/* The next five lines will set transitions for the events of mousing over and mousing out for different browsers */
-    -webkit-transition: opacity 0.4s ease ; /* Chrome and Safari */
-    -moz-transition: opacity 0.4s ease ; /* Firefox */
-    -o-transition: opacity 0.4s ease ; /* Opera */
-    -ms-transition: opacity 0.4s ease ; /* Microsoft \(-___-*) */
-    transition: opacity 0.4s ease ; /* Everything else with CSS3 support */
-
     text-align: right ; /* Aligning the text to the right */
 }
 
 .container ul:hover {
     opacity: 1 ; /* Setting the opacity for <ul> elements which are in the mouse over state contained in elements with the class 'container' */
-    
-	/* The next five lines will set transitions for the events of mousing over and mousing out for different browsers */
-    -webkit-transition: opacity 0.4s ease ; /* Chrome and Safari */
-    -moz-transition: opacity 0.4s ease ; /* Firefox */
-    -o-transition: opacity 0.4s ease ; /* Opera */
-    -ms-transition: opacity 0.4s ease ; /* Microsoft \(-___-*) */
-    transition: opacity 0.4s ease ; /* Everything else with CSS3 support */
 }
 
 li {
 	list-style-type: none ; /* Clearing those bullets */
-	margin: 10px auto ; /* Setting top and bottom margins to 10 pixels -- Left and right to 'auto' */
+	margin: 15px auto ; /* Setting top and bottom margins to 15 pixels -- Left and right to 'auto' */
 }
 
 img {
@@ -122,12 +116,37 @@ figcaption {
 	display: inline-block ; /* Key to <img>'s and <figcaption>'s displaying by each other instead of above each other */
 	font-family: "Helvetica Neue", "Helvetica", "Source Sans Pro", "Arial", sans-serif ; /* Just setting the font */
 	font-weight: 200 ; /* ...and the weight of the font */
-	margin-left: 35px ; /* Setting the left margin */
+	margin: 15px auto ;
 	text-align: center ; /* Centering the text for the design */
-	text-indent: 25px ; /* Indenting the text so captions will appear as indented paragraphs when there's a lot of text */
 	width: 435px ; /* Key to positioning the <figcaption> text */
 }
 
+.column {
+	background: #db81d5; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: linear-gradient(to bottom,  #db81d5 0%,#dd00cf 100%); /* W3C */
+	float: left ;
+	margin: 5px ;
+	padding: 5px ;
+	width: 450px ;
+	text-align: center ;
+}
+
+.column:after {
+	clear: both ;
+}
+
+.last {
+	background-image: url("../images/pattern_153.gif") ;
+	background-repeat: no-repeat ;
+	background-position: top center ;
+	background-size: cover ;
+	clear: both ;
+	float: right ;
+	text-align: right ;
+	width: 750px ;
+}
+
 /* Made with <3 by Alexander */
-/* Completed Saturday, 1 November, 2014 */
+/* Completed Tuesday, 11 November, 2014 */
 /* CSS3 validation (thorugh W3C) passed with no errors */
