@@ -26,7 +26,7 @@ body * {
 	background-repeat: no-repeat ;
 	background-position: top center ;
 	background-size: cover ;
-margin: auto ; /* Setting the containers' margin to 'auto' will center it */
+	margin: auto ; /* Setting the containers' margin to 'auto' will center it */
 	width: 75% ; /* Setting the width of the container */
 }
 
@@ -84,7 +84,6 @@ ul {
 	right: 0px ; /* ...and the right to 0 pixels */
 	padding: 15px 25px ; /* Demonstrating some padding in order to give unordered lists a little space to live */
 	opacity: 0.4 ; /* Setting the default opacity of unordered lists. */
-	
     text-align: right ; /* Aligning the text to the right */
 }
 
@@ -100,7 +99,7 @@ li {
 img {
 	border-radius: 5px ; /* Rounds the corners of images */
 	height: auto ; /* This doesn't really do anything but hopefully it demonstrates that I know how to use it :) */
-	width: 435px ; /* Sets the width of images to an amount of pixels */
+	width: 43.5% ; /* Sets the width of images to an amount of pixels */
 }
 
 figure {
@@ -118,7 +117,7 @@ figcaption {
 	font-weight: 200 ; /* ...and the weight of the font */
 	margin: 15px auto ;
 	text-align: center ; /* Centering the text for the design */
-	width: 435px ; /* Key to positioning the <figcaption> text */
+	width: 43.5% ; /* Key to positioning the <figcaption> text */
 }
 
 .column {
@@ -128,12 +127,8 @@ figcaption {
 	float: left ;
 	margin: 5px ;
 	padding: 5px ;
-	width: 450px ;
+	width: 45% ;
 	text-align: center ;
-}
-
-.column:after {
-	clear: both ;
 }
 
 .last {
@@ -144,7 +139,7 @@ figcaption {
 	clear: both ;
 	float: right ;
 	text-align: right ;
-	width: 750px ;
+	width: 75% ;
 }
 
 /* Made with <3 by Alexander */
