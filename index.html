@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Project 2 - Trains 101</title>
+	<title>Project 4 - Trains 101</title>
 	<!-- Metadata -->
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<!-- Links -->
@@ -154,10 +154,16 @@
 					<option value="WI">Wisconsin</option>
 					<option value="WY">Wyoming</option>
 				</select><br />
+			<input type="button" onclick="resetFields()" value="Reset Form" />
 			<input type="submit" value="Submit" />
 		</form>
 		<footer>Information and images from: <a href="http://en.wikipedia.org/wiki/Train" target="_blank">Train - Wikipedia, the free encyclopedia</a></footer>
 	</div> <!-- .container -->
+	<script type="text/javascript">
+	var resetFields = function() {
+		document.forms[0].reset();
+	};
+	</script>
 </body>
 <!-- Made with <3 by Alexander -->
 <!-- HTML5 compliant according to the W3C -->
