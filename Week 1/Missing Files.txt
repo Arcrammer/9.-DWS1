@@ -1,0 +1,3 @@
+For whatever reason, SSA Text and Lists is missing. I couldn’t find it on GitHub, or in my local repository. I have, although, submitted the assignment so I’m led to believe that it was either lost or I’d submitted the assignment without actually doing it and pushing it to GitHub. Note that SSA’s don’t require upload to FSO, although they’re mandatory and they must be completed and pushed to GitHub.
+
+Note: ‘SSA’ stands for ‘Self-Assessment Activity’
