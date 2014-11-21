@@ -201,6 +201,7 @@ form:hover, form:focus {
 }
 
 label {
+	color: #444 ;
 	float: left ;
 	width: 20px  ;
 }
@@ -216,6 +217,7 @@ input[name] { /* Using this, the buttons at the bottom of the form don't become 
 
 input:hover, input:focus {
 	background-color: #444 ;
+	color: #ececec ;
 }
 
 input:focus {
